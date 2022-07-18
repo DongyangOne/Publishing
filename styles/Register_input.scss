@@ -1,0 +1,199 @@
+/*laptop L*/
+@media screen and (min-width:1440px) {
+    
+        body,html{ 
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            width: 100%;
+            font-family: 'Poppins','Noto Sans KR', sans-serif;
+        }
+        
+        .blue_box {
+            float: left;
+            background-color: #366BF6;
+            width: 53%;
+            height: 970px;
+            color: #ffffff;
+           
+        }
+        
+        .blue_box {
+            p {
+            margin-left: 60px;
+            font-size: 30px;
+            }
+        }
+
+        .white_box {
+            float: right;
+            width: 47%;
+            height: 100%;
+        }
+        
+        #wrap {
+            width: 345px;
+            position: relative;
+            top: 200px;
+            left: 15%;
+        }
+        
+        #wrap > h2 {
+            margin-left: 10px;
+            font-size: 25px;
+        }
+         
+        .input-box{
+            margin:10px ;
+          }
+        
+        .input-box {
+            div {
+            font-size: 17px;
+          }
+        }
+
+        .input-box {
+            input {
+            background:transparent;
+            border:none;
+            border-bottom: solid 2.5px black;
+            padding:20px 0px 5px 0px;
+            font-size:14pt;
+            width: 400px;
+          }
+        }
+        
+        .chk_box {
+            margin: 20px;
+            width: 340px;
+            font-size: 15px;
+        }
+        
+        .chk_box {
+             input {
+            width: 15px;
+            height: 15px;
+            border: 3px solid black;
+            }
+        }
+
+        .submit {
+              border-radius: 5px;
+              position: relative;
+              left: 10px;
+              background-color: #366BF6;
+              width: 400px;
+              height: 50px;
+              color: #ffffff;
+              border: none;
+              font-family: 'Poppins','Noto Sans KR', sans-serif;
+              font-size: 20px;
+        }
+          
+          
+    }
+    
+    
+    /*laptop*/
+    @media screen and (min-width:1024px) and (max-width:1430px) {
+
+        body,html{ 
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            width: 100%;
+            font-family: 'Poppins','Noto Sans KR', sans-serif;
+        }
+    
+        .blue_box {
+            float: left;
+            background-color: #366BF6;
+            width: 53%;
+            height: 970px;
+            color: #ffffff;
+           
+        }
+           
+        .blue_box {
+             p {
+            margin-left: 60px;
+            font-size: 30px;
+            }
+        }
+    
+        .white_box {
+            
+            float: right;
+            width: 47%;
+            height: 100%;
+            
+        }
+        
+        #wrap {
+            width: 345px;
+            position: relative;
+            top: 200px;
+            left: 10%;
+        }
+        
+        #wrap {
+             h2 {
+            margin-left: 10px;
+            font-size: 25px;
+            }
+        } 
+        
+        .input-box{
+            margin:10px ;
+          }
+        
+        .input-box {
+             div {
+            font-size: 17px;
+            }
+        }
+
+        .input-box {
+             input{
+            background:transparent;
+            border:none;
+            border-bottom: solid 2.5px black;
+            padding:20px 0px 5px 0px;
+            font-size:14pt;
+            width: 400px;
+          }
+        }
+
+        .chk_box {
+            margin: 20px;
+            width: 340px;
+            font-size: 15px;
+        }
+        
+        .chk_box {
+            input {
+            width: 15px;
+            height: 15px;
+            border: 3px solid black;
+            }
+        }
+
+        .submit {
+              border-radius: 5px;
+              position: relative;
+              left: 10px;
+              background-color: #366BF6;
+              width: 400px;
+              height: 50px;
+              color: #ffffff;
+              border: none;
+              font-family: 'Poppins','Noto Sans KR', sans-serif;
+              font-size: 20px;
+        }
+          
+          
+    }
+    
+      
+    
