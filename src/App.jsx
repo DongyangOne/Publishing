@@ -1,6 +1,14 @@
 import '../styles/App.scss'
-import Test from './pages/Test'
+import Login_input from './pages/Login_input'
+import Register_input from './pages/Register_input'
+
+
 
 export default function App() {
-  return <Test />
+  return (
+    <div>
+      <Login_input/>
+      <Register_input/>
+    </div>
+  )
 }
