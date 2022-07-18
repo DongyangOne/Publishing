@@ -1,9 +1,6 @@
 import '../styles/App.scss'
+import Test from './pages/Test'
 
 export default function App() {
-  return (
-    <div>
-      <h1>Hello world</h1>
-    </div>
-  )
+  return <Test />
 }
