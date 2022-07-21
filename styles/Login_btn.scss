@@ -11,6 +11,8 @@
 		padding: 0px;
 		height: 100%;
 	}
+
+	
 	.bluebox {
 		float: left;
 		width: 53%;
@@ -18,68 +20,88 @@
 		background-color: #366BF6;
 		color: white;
 		font-size: 30px;
+
+			.bluebox_anyad {
+				margin-left: 60px;
+			}
 	}
+	
 	.whitebox {
 		float: left;
 		width: 47%;
 		height: 100%;
 		background-color: white;
 		font-size: 20px;
+
+			.wrap {
+				width: 400px;
+				position: absolute;
+				top: 200px;
+				left: 65%;
+			}
+
+				.ex {
+					font-size: 15px;
+				}	
+
+					button {
+						font-family: 'Poppins','Noto Sans KR', sans-serif;
+						width: 400px;
+						height: 50px;
+						margin-top: 20px;
+						border-radius: 5px;
+						font-size: 20px;
+					}
+
+						.google {
+							background-color: white;
+							border: 1px solid black;
+						}
+
+						.kakao {
+							background-color: rgb(255, 219, 13);
+							border: 0px;
+						}
+
+							.line1 {
+								position: relative;
+								left: 2px;
+								top: 35px;
+								width: 157px;
+								height: 3px;
+								background-color: black;
+							}
+
+								.or {
+									text-align: center;
+								}
+
+									.line2 {
+										position: relative;
+										left: 240px;
+										top: -39px;
+										width: 157px;
+										height: 3px;
+										background-color: black;
+									}
+
+										.anyad {
+											position: relative;
+											top: -20px;
+											background-color: #366BF6;
+											color: white;
+											border: 0px;
+										}
 	}
-	button {
-		font-family: 'Poppins','Noto Sans KR', sans-serif;
-		width: 400px;
-		height: 50px;
-		margin-top: 20px;
-		border-radius: 5px;
-		font-size: 20px;
-	}
-	.google {
-		background-color: white;
-		border: 1px solid black;
-	}
-	.kakao {
-		background-color: rgb(255, 219, 13);
-		border: 0px;
-	}
-	.anyad {
-		position: relative;
-		top: -20px;
-		background-color: #366BF6;
-		color: white;
-		border: 0px;
-	}
-	.wrap {
-		width: 400px;
-		position: absolute;
-		top: 200px;
-		left: 65%;
-	}
-	.or {
-		text-align: center;
-	}
-	.ex {
-		font-size: 15px;
-	}
-	.bluebox_anyad {
-		margin-left: 60px;
-	}
-	.line1 {
-		position: relative;
-		left: 2px;
-		top: 35px;
-		width: 157px;
-		height: 3px;
-		background-color: black;
-	}
-	.line2 {
-		position: relative;
-		left: 240px;
-		top: -39px;
-		width: 157px;
-		height: 3px;
-		background-color: black;
-	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
 @media screen and (min-width:1024px) and (max-width:1439px) {
 	html {
@@ -101,66 +123,77 @@
 		background-color: #366BF6;
 		color: white;
 		font-size: 30px;
+
+			.bluebox_anyad {
+				margin-left: 60px;
+			}
 	}
+	
 	.whitebox {
 		float: left;
 		width: 47%;
 		height: 100%;
 		background-color: white;
 		font-size: 20px;
-	}
-	button {
-		font-family: 'Poppins','Noto Sans KR', sans-serif;
-		width: 400px;
-		height: 50px;
-		margin-top: 20px;
-		border-radius: 5px;
-		font-size: 20px;
-	}
-	.google {
-		background-color: white;
-		border: 1px solid black;
-	}
-	.kakao {
-		background-color: rgb(255, 219, 13);
-		border: 0px;
-	}
-	.anyad {
-		position: relative;
-		top: -20px;
-		background-color: #366BF6;
-		color: white;
-		border: 0px;
-	}
-	.wrap {
-		width: 400px;
-		position: absolute;
-		top: 200px;
-		left: 65%;
-	}
-	.or {
-		text-align: center;
-	}
-	.ex {
-		font-size: 15px;
-	}
-	.bluebox_anyad {
-		margin-left: 60px;
-	}
-	.line1 {
-		position: relative;
-		left: 2px;
-		top: 35px;
-		width: 157px;
-		height: 3px;
-		background-color: black;
-	}
-	.line2 {
-		position: relative;
-		left: 240px;
-		top: -39px;
-		width: 157px;
-		height: 3px;
-		background-color: black;
+
+			.wrap {
+				width: 400px;
+				position: absolute;
+				top: 200px;
+				left: 65%;
+			}
+
+				.ex {
+					font-size: 15px;
+				}	
+
+					button {
+						font-family: 'Poppins','Noto Sans KR', sans-serif;
+						width: 400px;
+						height: 50px;
+						margin-top: 20px;
+						border-radius: 5px;
+						font-size: 20px;
+					}
+
+						.google {
+							background-color: white;
+							border: 1px solid black;
+						}
+
+						.kakao {
+							background-color: rgb(255, 219, 13);
+							border: 0px;
+						}
+
+							.line1 {
+								position: relative;
+								left: 2px;
+								top: 35px;
+								width: 157px;
+								height: 3px;
+								background-color: black;
+							}
+
+								.or {
+									text-align: center;
+								}
+
+									.line2 {
+										position: relative;
+										left: 240px;
+										top: -39px;
+										width: 157px;
+										height: 3px;
+										background-color: black;
+									}
+
+										.anyad {
+											position: relative;
+											top: -20px;
+											background-color: #366BF6;
+											color: white;
+											border: 0px;
+										}
 	}
 }
