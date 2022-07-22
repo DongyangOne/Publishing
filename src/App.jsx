@@ -1,6 +1,6 @@
 import '../styles/App.scss'
-import Test from './pages/Test'
+import Bodys from './pages/Bodys'
 
 export default function App() {
-  return <Test />
+  return <Bodys/>
 }

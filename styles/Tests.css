@@ -1,0 +1,318 @@
+.alitem {
+  align-items: center;
+  display: flex;
+  margin-left: 50px;
+}
+
+hr {
+  margin: 30px;
+}
+
+.marg {
+  margin-left: 6rem;
+}
+
+li > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.ali_left {
+  display: inline;
+  float: left;
+}
+
+body {
+  padding-top: 100px;
+  background-color: #efeff4;
+}
+
+section {
+  padding: 60px;
+}
+
+aside {
+  padding: 30px;
+}
+
+div.LEFT {
+  margin-right: 30px;
+  float: left;
+  width: 35%;
+}
+
+div.RIGHT {
+  width: 50%;
+  float: left;
+}
+
+.pt_left {
+  background-color: #fff;
+  float: right;
+  width: 200px;
+}
+
+.pt_right {
+  background-color: #fff;
+  width: 500px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.btn1 {
+  width: 200px;
+  height: 45px;
+  border: 2px solid #ddd;
+  background-color: #fff;
+}
+
+.btn1:hover {
+  background-color: #ddd;
+}
+
+.btn1:active {
+  background-color: #aaa;
+}
+
+header {
+  min-width: 1000px;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0px;
+}
+
+.head_search {
+  position: relative;
+  border-radius: 30px;
+  width: 300px;
+}
+
+.head_search_in {
+  width: 180px;
+  border: 1px solid #bbb;
+  border-radius: 20px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.head_search_ico {
+  position: absolute;
+  width: 17px;
+  top: 10px;
+  right: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  display: inline;
+  padding: 0px 15px;
+}
+
+#ham_line-ham_wrapper {
+  float: right;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.ham_line {
+  background: #366BF6;
+  margin-top: 6px;
+  width: 30px;
+  height: 4px;
+  border-radius: 1px;
+  position: relative;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.tg td {
+  border-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 13px;
+  word-break: normal;
+}
+
+.tg th {
+  border-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 13px;
+  word-break: normal;
+}
+
+.tg .tg-ov6f {
+  background-color: #ffffff;
+  border-color: #fff;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tg .tg-rmsp {
+  background-color: #ffffff;
+  border-color: #fff;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.toggleSwitch {
+  width: 60px;
+  height: 30px;
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.toggleSwitch .toggleButton {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 50%;
+  left: 1.5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #fff;
+}
+
+#toggle:checked ~ .toggleSwitch {
+  background: #366BF6;
+}
+
+#toggle:checked ~ .toggleSwitch .toggleButton {
+  left: calc(100% - 28px);
+  background: #fff;
+}
+
+.toggleSwitch, .toggleButton {
+  transition: all 0.2s ease-in;
+}
+
+.toggleSwitch1 {
+  width: 60px;
+  height: 30px;
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.toggleSwitch1 .toggleButton1 {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 50%;
+  left: 1.5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #fff;
+}
+
+#toggle1:checked ~ .toggleSwitch1 {
+  background: #366BF6;
+}
+
+#toggle1:checked ~ .toggleSwitch1 .toggleButton1 {
+  left: calc(100% - 28px);
+  background: #fff;
+}
+
+.toggleSwitch1, .toggleButton1 {
+  transition: all 0.2s ease-in;
+}
+
+.toggleSwitch2 {
+  width: 60px;
+  height: 30px;
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.toggleSwitch2 .toggleButton2 {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 50%;
+  left: 1.5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #fff;
+}
+
+#toggle2:checked ~ .toggleSwitch2 {
+  background: #366BF6;
+}
+
+#toggle2:checked ~ .toggleSwitch2 .toggleButton2 {
+  left: calc(100% - 28px);
+  background: #fff;
+}
+
+.toggleSwitch2, .toggleButton2 {
+  transition: all 0.2s ease-in;
+}
+
+.toggleSwitch3 {
+  width: 60px;
+  height: 30px;
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.toggleSwitch3 .toggleButton3 {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 50%;
+  left: 1.5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #fff;
+}
+
+#toggle3:checked ~ .toggleSwitch3 {
+  background: #366BF6;
+}
+
+#toggle3:checked ~ .toggleSwitch3 .toggleButton3 {
+  left: calc(100% - 28px);
+  background: #fff;
+}
+
+.toggleSwitch3, .toggleButton3 {
+  transition: all 0.2s ease-in;
+}/*# sourceMappingURL=Tests.css.map */
