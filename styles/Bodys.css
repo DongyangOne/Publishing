@@ -1,0 +1,288 @@
+@charset "UTF-8";
+#header {
+  min-width: 100%;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+#header .title {
+  color: #366BF6;
+  font-size: 30px;
+}
+#header #alitem {
+  background-color: #fff;
+  display: flex;
+  position: relative;
+}
+#header #alitem span {
+  margin-left: 5rem;
+}
+#header #alitem .head_search input {
+  border-radius: 30px;
+  width: 300px;
+}
+#header #alitem .head_search_in {
+  width: 180px;
+  border: 1px solid #bbb;
+  border-radius: 20px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+#header #alitem .head_search_ico {
+  position: relative; /*기존 absolute*/
+  width: 17px;
+  top: 10px;
+  right: 0;
+  margin: 0;
+}
+#header ul {
+  list-style-type: none;
+  float: right;
+}
+#header li {
+  display: inline;
+  padding: 0px 15px;
+}
+#header li a {
+  text-decoration: none;
+  color: #000;
+}
+#header #ham_line-ham_wrapper {
+  float: right;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+#header #ham_line-ham_wrapper .ham_line {
+  background: #366BF6;
+  margin-top: 6px;
+  width: 30px;
+  height: 4px;
+  border-radius: 1px;
+  position: relative;
+  display: flex;
+}
+
+body {
+  background-color: #efeff4;
+  padding-top: 100px;
+}
+
+div .top_marg {
+  margin-top: 5vh;
+}
+div #marg_de_1 {
+  margin: 3vh;
+}
+div hr {
+  margin: 3vh;
+}
+div img {
+  border-radius: 20px;
+}
+div img .img_pt1 {
+  width: 120px;
+}
+div img .img_pt2 {
+  width: 150px;
+}
+div h2 {
+  font-size: 25px;
+}
+div button {
+  width: 140px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #aaa;
+}
+div .LEFT {
+  margin-top: 10vh;
+  margin-right: 30px;
+  float: left;
+  width: 35%;
+}
+div .LEFT .pt_left {
+  text-align: center;
+  background-color: #fff;
+  float: right;
+  width: 200px;
+}
+div .RIGHT {
+  margin-top: 10vh;
+  width: 50%;
+  float: left;
+}
+div .RIGHT .pt_right {
+  text-align: center;
+  background-color: #fff;
+  width: 500px;
+}
+
+div .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+div td {
+  border-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 13px;
+  word-break: normal;
+}
+div th {
+  border-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 13px;
+  word-break: normal;
+}
+div .tg-ov6f {
+  width: 50%;
+  background-color: #ffffff;
+  border-color: #fff;
+  text-align: left;
+  vertical-align: top;
+}
+div .tg-rmsp {
+  width: 30%;
+  background-color: #ffffff;
+  border-color: #fff;
+  text-align: left;
+  vertical-align: middle;
+}
+
+td .toggleSwitch {
+  width: 60px;
+  height: 30px;
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+td .toggleSwitch .toggleButton {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 50%;
+  left: 1.5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #fff;
+}
+td #toggle:checked ~ .toggleSwitch {
+  background: #366BF6;
+}
+td #toggle:checked ~ .toggleSwitch .toggleButton {
+  left: calc(100% - 28px);
+  background: #fff;
+}
+td .toggleSwitch,
+td .toggleButton {
+  transition: all 0.2s ease-in;
+}
+td .toggleSwitch1 {
+  width: 60px;
+  height: 30px;
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+td .toggleSwitch1 .toggleButton1 {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 50%;
+  left: 1.5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #fff;
+}
+td #toggle1:checked ~ .toggleSwitch1 {
+  background: #366BF6;
+}
+td #toggle1:checked ~ .toggleSwitch1 .toggleButton1 {
+  left: calc(100% - 28px);
+  background: #fff;
+}
+td .toggleSwitch1,
+td .toggleButton1 {
+  transition: all 0.2s ease-in;
+}
+td .toggleSwitch2 {
+  width: 60px;
+  height: 30px;
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+td .toggleSwitch2 .toggleButton2 {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 50%;
+  left: 1.5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #fff;
+}
+td #toggle2:checked ~ .toggleSwitch2 {
+  background: #366BF6;
+}
+td #toggle2:checked ~ .toggleSwitch2 .toggleButton2 {
+  left: calc(100% - 28px);
+  background: #fff;
+}
+td .toggleSwitch2,
+td .toggleButton2 {
+  transition: all 0.2s ease-in;
+}
+td .toggleSwitch3 {
+  width: 60px;
+  height: 30px;
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+td .toggleSwitch3 .toggleButton3 {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 50%;
+  left: 1.5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #fff;
+}
+td #toggle3:checked ~ .toggleSwitch3 {
+  background: #366BF6;
+}
+td #toggle3:checked ~ .toggleSwitch3 .toggleButton3 {
+  left: calc(100% - 28px);
+  background: #fff;
+}
+td .toggleSwitch3,
+td .toggleButton3 {
+  transition: all 0.2s ease-in;
+}/*# sourceMappingURL=Bodys.css.map */
